@@ -1,0 +1,127 @@
+body {
+   margin: 0;
+   background: url("/img/weather2.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+   font-family: "Heebo", sans-serif !important;
+   font-weight: 400;
+   font-size: 17px;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+h1,
+h2,
+h3 {
+   font-weight: 500;
+}
+h1 {
+   font-size: 52px;
+   margin: 0;
+}
+h2 {
+   font-size: 36px;
+   text-transform: capitalize;
+}
+h3 {
+   font-size: 20px;
+   text-transform: capitalize;
+   margin: 0;
+}
+.App .container {
+   width: 40vw;
+   background: url("/img/weather.jpg");
+   height: auto;
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 30px;
+}
+
+.input,
+.btn {
+   border-radius: 0;
+}
+.btn-primary {
+   background-color: #a1c6ea;
+   border: none;
+}
+.btn-primary:hover {
+   background-color: #507dbc;
+}
+.btn-outline-secondary {
+   border-color: #fff;
+   color: #fff;
+}
+.btn-outline-secondary:hover {
+   border-color: #fff;
+   background-color: #fff;
+   color: rgb(44, 44, 44);
+}
+.weather-current {
+   display: flex;
+   align-items: center;
+   margin: 25px 0 35px 0;
+}
+.temp-current {
+   display: flex;
+}
+.city {
+   margin: 30px 0 0 0;
+}
+.weather-icon canvas {
+   background-color: rgba(255, 255, 255, 0.25);
+   border-radius: 100%;
+   margin-right: 20px;
+   padding: 18px;
+}
+.weather-dscr {
+   text-transform: capitalize;
+   margin-top: -12px;
+}
+.degree {
+   display: flex;
+}
+.temp-unit {
+   font-size: 20px;
+   margin: 4px 0 0 3px;
+   text-decoration: none;
+}
+.vertical-line {
+   height: 48px;
+   border-left: 1px solid #d3d3d3;
+   margin: 0px 25px;
+}
+.weather-details p {
+   margin: 4px 0;
+   font-size: 16px;
+}
+.weather-next {
+   display: flex;
+   gap: 8px;
+}
+.weather-icon-next canvas {
+   margin: 10px 0 2px 0;
+   border-radius: 100%;
+   background-color: rgba(255, 255, 255, 0.2);
+   padding: 14px;
+}
+.degree-min {
+   opacity: 0.8;
+}
+.footer {
+   text-align: center;
+   font-size: 13px;
+}
+.footLink {
+   color: #85b8ff;
+   text-decoration: none;
+}
+.footLink:hover {
+   color: #38f4c9;
+}
+.spinner {
+   display: flex;
+   justify-content: center;
+}
